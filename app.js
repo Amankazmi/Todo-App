@@ -5,7 +5,7 @@ let ul = document.querySelector('ul');
 btn.addEventListener('click', function () {
 
     if(input.value.trim() === "") {
-        alert("Please Type Something in input field");
+        alert("Please Enter Task Name");
         return;
     }
     let li = document.createElement('li');
